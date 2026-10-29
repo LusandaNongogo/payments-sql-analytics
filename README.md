@@ -1,5 +1,7 @@
 # Payments SQL Analytics
 
+[![Tests](https://github.com/LusandaNongogo/payments-sql-analytics/actions/workflows/tests.yml/badge.svg)](https://github.com/LusandaNongogo/payments-sql-analytics/actions/workflows/tests.yml)
+
 SQL analysis of a quarter of payments for a South African payment service provider: reconciliation against the bank's settlement file, failed payments, retry recovery, chargebacks and settlement, with a Power BI dashboard design. The SQL runs on SQLite, so it needs nothing beyond Python to run.
 
 ## Findings
