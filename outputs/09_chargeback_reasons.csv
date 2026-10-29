@@ -1,0 +1,6 @@
+reason,chargebacks,merchant_win_rate_pct,value_lost
+fraud_card_not_present,93,18.3,234126.24
+goods_not_received,32,50.0,39619.38
+not_as_described,17,17.6,24406.3
+cancelled_recurring,10,50.0,12614.21
+duplicate_charge,7,0.0,6954.44

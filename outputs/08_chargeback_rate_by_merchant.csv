@@ -1,0 +1,16 @@
+merchant_id,merchant_name,category,card_sales,chargebacks,chargeback_rate_pct,fraud_share_pct,flag,risk_rank
+M036,Education Merchant 036,education,140,6,4.29,83.0,review,1
+M010,Electronics Merchant 010,electronics,770,28,3.64,86.0,review,2
+M017,Education Merchant 017,education,794,18,2.27,78.0,review,3
+M045,Food Delivery Merchant 045,food_delivery,230,3,1.3,0.0,review,4
+M034,Electronics Merchant 034,electronics,410,5,1.22,60.0,review,5
+M033,Airtime Data Merchant 033,airtime_data,108,1,0.93,0.0,,6
+M057,Travel Merchant 057,travel,108,1,0.93,100.0,,6
+M013,Grocery Merchant 013,grocery,112,1,0.89,100.0,,8
+M001,Fuel Merchant 001,fuel,134,1,0.75,0.0,,9
+M016,Travel Merchant 016,travel,140,1,0.71,0.0,,10
+M022,Fuel Merchant 022,fuel,154,1,0.65,100.0,,11
+M002,Travel Merchant 002,travel,167,1,0.6,0.0,,12
+M051,Food Delivery Merchant 051,food_delivery,362,2,0.55,50.0,,13
+M052,Airtime Data Merchant 052,airtime_data,386,2,0.52,50.0,,14
+M054,Food Delivery Merchant 054,food_delivery,214,1,0.47,100.0,,15

@@ -1,0 +1,6 @@
+exception_type,exceptions,value_at_stake
+late_settlement,60,138197.88
+missing_in_bank,40,97597.62
+duplicate_in_bank,30,58229.95
+missing_in_ledger,15,24159.57
+amount_mismatch,25,616.5

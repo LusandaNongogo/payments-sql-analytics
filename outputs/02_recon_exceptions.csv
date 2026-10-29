@@ -1,0 +1,171 @@
+exception_type,payment_id,merchant_name,payment_date,settlement_date,ledger_amount,bank_amount,difference,next_action
+amount_mismatch,P029971,Electronics Merchant 024,2026-07-08,2026-07-09,5944.03,5960.68,16.65,Compare authorisation and capture amounts
+amount_mismatch,P042260,Electronics Merchant 024,2026-07-08,2026-07-09,1346.41,1327.59,-18.82,Compare authorisation and capture amounts
+amount_mismatch,P033517,Education Merchant 026,2026-07-11,2026-07-12,2019.55,1970.42,-49.13,Compare authorisation and capture amounts
+amount_mismatch,P038509,Education Merchant 040,2026-07-11,2026-07-12,3933.2,3935.97,2.77,Compare authorisation and capture amounts
+amount_mismatch,P055877,Electronics Merchant 024,2026-07-14,2026-07-15,729.16,697.97,-31.19,Compare authorisation and capture amounts
+amount_mismatch,P003678,Food Delivery Merchant 012,2026-07-15,2026-07-16,105.85,120.55,14.7,Compare authorisation and capture amounts
+amount_mismatch,P021668,Electronics Merchant 034,2026-07-18,2026-07-19,10392.73,10424.86,32.13,Compare authorisation and capture amounts
+amount_mismatch,P036974,Fashion Merchant 044,2026-07-18,2026-07-19,1706.04,1726.61,20.57,Compare authorisation and capture amounts
+amount_mismatch,P027097,Travel Merchant 038,2026-07-23,2026-07-24,2837.14,2820.65,-16.49,Compare authorisation and capture amounts
+amount_mismatch,P030605,Education Merchant 026,2026-07-26,2026-07-27,3039.25,3042.62,3.37,Compare authorisation and capture amounts
+amount_mismatch,P025339,Fashion Merchant 027,2026-07-28,2026-07-29,1405.73,1390.02,-15.71,Compare authorisation and capture amounts
+amount_mismatch,P052209,Fashion Merchant 044,2026-08-10,2026-08-11,1061.71,1097.7,35.99,Compare authorisation and capture amounts
+amount_mismatch,P001119,Electronics Merchant 010,2026-08-13,2026-08-14,3136.1,3157.19,21.09,Compare authorisation and capture amounts
+amount_mismatch,P009120,Travel Merchant 028,2026-08-14,2026-08-15,287.34,315.9,28.56,Compare authorisation and capture amounts
+amount_mismatch,P015966,Education Merchant 040,2026-08-14,2026-08-15,1431.71,1469.96,38.25,Compare authorisation and capture amounts
+amount_mismatch,P012039,Education Merchant 011,2026-08-15,2026-08-16,1390.79,1431.37,40.58,Compare authorisation and capture amounts
+amount_mismatch,P031835,Education Merchant 040,2026-08-18,2026-08-19,541.21,501.43,-39.78,Compare authorisation and capture amounts
+amount_mismatch,P003716,Food Delivery Merchant 012,2026-08-28,2026-08-29,235.12,219.52,-15.6,Compare authorisation and capture amounts
+amount_mismatch,P036684,Travel Merchant 028,2026-08-28,2026-08-29,4160.01,4142.11,-17.9,Compare authorisation and capture amounts
+amount_mismatch,P057406,Airtime Data Merchant 025,2026-08-29,2026-08-30,180.36,222.64,42.28,Compare authorisation and capture amounts
+amount_mismatch,P045751,Travel Merchant 028,2026-08-30,2026-08-31,3216.09,3246.48,30.39,Compare authorisation and capture amounts
+amount_mismatch,P049389,Education Merchant 026,2026-09-07,2026-09-08,2259.45,2255.15,-4.3,Compare authorisation and capture amounts
+amount_mismatch,P031774,Electronics Merchant 010,2026-09-13,2026-09-14,5026.1,4981.27,-44.83,Compare authorisation and capture amounts
+amount_mismatch,P047930,Education Merchant 040,2026-09-20,2026-09-21,6002.54,6031.57,29.03,Compare authorisation and capture amounts
+amount_mismatch,P011027,Food Delivery Merchant 012,2026-09-25,2026-09-26,253.07,259.46,6.39,Compare authorisation and capture amounts
+duplicate_in_bank,P054611,Fashion Merchant 027,2026-07-02,2026-07-03,1274.94,1274.94,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P038594,Travel Merchant 028,2026-07-06,2026-07-07,3587.5,3587.5,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P046624,Food Delivery Merchant 051,2026-07-07,2026-07-08,379.94,379.94,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P020996,Fashion Merchant 027,2026-07-13,2026-07-14,1078.98,1078.98,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P053182,Electronics Merchant 024,2026-07-20,2026-07-21,10405.33,10405.33,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P056732,Education Merchant 040,2026-07-23,2026-07-24,4725.03,4725.03,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P058845,Education Merchant 026,2026-07-24,2026-07-25,3385.98,3385.98,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P018477,Fashion Merchant 027,2026-07-24,2026-07-25,3486.18,3486.18,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P051006,Electronics Merchant 024,2026-07-29,2026-07-30,5144.49,5144.49,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P002789,Food Delivery Merchant 035,2026-07-30,2026-07-31,233.64,233.64,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P029986,Food Delivery Merchant 012,2026-07-30,2026-07-31,150.39,150.39,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P046256,Food Delivery Merchant 012,2026-07-30,2026-07-31,287.01,287.01,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P009191,Food Delivery Merchant 035,2026-08-05,2026-08-06,142.7,142.7,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P009093,Electronics Merchant 047,2026-08-08,2026-08-09,2867.04,2867.04,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P043355,Airtime Data Merchant 052,2026-08-14,2026-08-15,176.26,176.26,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P024962,Electronics Merchant 010,2026-08-15,2026-08-16,2374.21,2374.21,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P008428,Food Delivery Merchant 012,2026-08-16,2026-08-17,145.01,145.01,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P029047,Fuel Merchant 009,2026-08-17,2026-08-18,1034.3,1034.3,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P037626,Education Merchant 040,2026-08-23,2026-08-24,1411.19,1411.19,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P020230,Fashion Merchant 049,2026-08-29,2026-08-30,659.95,659.95,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P045968,Fashion Merchant 044,2026-09-03,2026-09-04,1742.54,1742.54,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P032173,Travel Merchant 028,2026-09-06,2026-09-07,3404.4,3404.4,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P008845,Education Merchant 040,2026-09-09,2026-09-10,4130.59,4130.59,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P015336,Food Delivery Merchant 012,2026-09-19,2026-09-20,433.25,433.25,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P056924,Fuel Merchant 032,2026-09-20,2026-09-21,736.08,736.08,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P002012,Fashion Merchant 049,2026-09-21,2026-09-22,763.25,763.25,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P037105,Food Delivery Merchant 012,2026-09-24,2026-09-25,392.4,392.4,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P043295,Travel Merchant 031,2026-09-25,2026-09-26,2627.55,2627.55,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P028111,Food Delivery Merchant 012,2026-09-26,2026-09-27,303.39,303.39,0.0,Claim back the duplicate credit before paying the merchant
+duplicate_in_bank,P019298,Education Merchant 040,2026-09-27,2026-09-28,746.43,746.43,0.0,Claim back the duplicate credit before paying the merchant
+late_settlement,P056887,Food Delivery Merchant 012,2026-07-03,2026-07-07,153.08,153.08,0.0,Log against the acquirer service level
+late_settlement,P022564,Food Delivery Merchant 012,2026-07-05,2026-07-09,403.29,403.29,0.0,Log against the acquirer service level
+late_settlement,P030820,Electronics Merchant 024,2026-07-08,2026-07-11,1258.59,1258.59,0.0,Log against the acquirer service level
+late_settlement,P042491,Education Merchant 040,2026-07-09,2026-07-14,1374.13,1374.13,0.0,Log against the acquirer service level
+late_settlement,P055234,Education Merchant 040,2026-07-09,2026-07-13,9405.14,9405.14,0.0,Log against the acquirer service level
+late_settlement,P043712,Electronics Merchant 003,2026-07-10,2026-07-13,4736.24,4736.24,0.0,Log against the acquirer service level
+late_settlement,P036363,Food Delivery Merchant 051,2026-07-11,2026-07-15,627.97,627.97,0.0,Log against the acquirer service level
+late_settlement,P056711,Education Merchant 026,2026-07-11,2026-07-15,8404.45,8404.45,0.0,Log against the acquirer service level
+late_settlement,P053059,Education Merchant 040,2026-07-12,2026-07-15,1133.5,1133.5,0.0,Log against the acquirer service level
+late_settlement,P054038,Electronics Merchant 047,2026-07-18,2026-07-21,4581.79,4581.79,0.0,Log against the acquirer service level
+late_settlement,R000664,Fuel Merchant 053,2026-07-21,2026-07-26,1006.54,1006.54,0.0,Log against the acquirer service level
+late_settlement,P042347,Electronics Merchant 010,2026-07-22,2026-07-27,7955.63,7955.63,0.0,Log against the acquirer service level
+late_settlement,P049879,Electronics Merchant 024,2026-07-26,2026-07-31,3341.2,3341.2,0.0,Log against the acquirer service level
+late_settlement,P001035,Electronics Merchant 003,2026-07-29,2026-08-03,3336.64,3336.64,0.0,Log against the acquirer service level
+late_settlement,P023541,Fashion Merchant 049,2026-07-30,2026-08-02,1094.63,1094.63,0.0,Log against the acquirer service level
+late_settlement,P032066,Food Delivery Merchant 019,2026-07-30,2026-08-02,172.5,172.5,0.0,Log against the acquirer service level
+late_settlement,P018393,Electronics Merchant 010,2026-07-31,2026-08-03,3442.81,3442.81,0.0,Log against the acquirer service level
+late_settlement,P017524,Travel Merchant 055,2026-08-01,2026-08-06,7400.8,7400.8,0.0,Log against the acquirer service level
+late_settlement,P018479,Fashion Merchant 027,2026-08-01,2026-08-06,438.49,438.49,0.0,Log against the acquirer service level
+late_settlement,P030212,Education Merchant 040,2026-08-02,2026-08-06,1731.74,1731.74,0.0,Log against the acquirer service level
+late_settlement,P025144,Fuel Merchant 001,2026-08-06,2026-08-11,964.02,964.02,0.0,Log against the acquirer service level
+late_settlement,P043377,Travel Merchant 031,2026-08-08,2026-08-12,2326.48,2326.48,0.0,Log against the acquirer service level
+late_settlement,P013829,Electronics Merchant 024,2026-08-09,2026-08-13,1965.36,1965.36,0.0,Log against the acquirer service level
+late_settlement,P053831,Education Merchant 040,2026-08-09,2026-08-14,1091.31,1091.31,0.0,Log against the acquirer service level
+late_settlement,P015008,Electronics Merchant 008,2026-08-10,2026-08-15,3617.14,3617.14,0.0,Log against the acquirer service level
+late_settlement,P006688,Education Merchant 040,2026-08-12,2026-08-16,1971.97,1971.97,0.0,Log against the acquirer service level
+late_settlement,P039296,Fashion Merchant 027,2026-08-12,2026-08-16,654.71,654.71,0.0,Log against the acquirer service level
+late_settlement,P017227,Fashion Merchant 027,2026-08-14,2026-08-17,1053.69,1053.69,0.0,Log against the acquirer service level
+late_settlement,P004983,Travel Merchant 020,2026-08-16,2026-08-20,551.75,551.75,0.0,Log against the acquirer service level
+late_settlement,P057637,Electronics Merchant 024,2026-08-19,2026-08-24,3408.43,3408.43,0.0,Log against the acquirer service level
+late_settlement,P045619,Fuel Merchant 022,2026-08-23,2026-08-26,431.7,431.7,0.0,Log against the acquirer service level
+late_settlement,P049475,Education Merchant 040,2026-08-24,2026-08-27,3024.84,3024.84,0.0,Log against the acquirer service level
+late_settlement,P001344,Education Merchant 040,2026-08-25,2026-08-29,2678.13,2678.13,0.0,Log against the acquirer service level
+late_settlement,P002790,Fashion Merchant 044,2026-08-25,2026-08-30,731.12,731.12,0.0,Log against the acquirer service level
+late_settlement,P015792,Airtime Data Merchant 025,2026-08-25,2026-08-29,65.83,65.83,0.0,Log against the acquirer service level
+late_settlement,P013636,Food Delivery Merchant 051,2026-08-27,2026-09-01,66.02,66.02,0.0,Log against the acquirer service level
+late_settlement,P029214,Travel Merchant 016,2026-08-28,2026-09-01,4960.69,4960.69,0.0,Log against the acquirer service level
+late_settlement,P022992,Electronics Merchant 024,2026-08-30,2026-09-03,1027.15,1027.15,0.0,Log against the acquirer service level
+late_settlement,P049893,Fuel Merchant 042,2026-09-02,2026-09-05,567.01,567.01,0.0,Log against the acquirer service level
+late_settlement,P027839,Airtime Data Merchant 006,2026-09-06,2026-09-10,339.97,339.97,0.0,Log against the acquirer service level
+late_settlement,P055167,Travel Merchant 028,2026-09-07,2026-09-11,1646.63,1646.63,0.0,Log against the acquirer service level
+late_settlement,P039843,Food Delivery Merchant 012,2026-09-08,2026-09-13,381.49,381.49,0.0,Log against the acquirer service level
+late_settlement,P026250,Education Merchant 026,2026-09-09,2026-09-14,2064.84,2064.84,0.0,Log against the acquirer service level
+late_settlement,P041648,Travel Merchant 020,2026-09-11,2026-09-15,8279.04,8279.04,0.0,Log against the acquirer service level
+late_settlement,P035267,Electronics Merchant 008,2026-09-12,2026-09-15,4237.87,4237.87,0.0,Log against the acquirer service level
+late_settlement,P008213,Education Merchant 040,2026-09-13,2026-09-17,2409.93,2409.93,0.0,Log against the acquirer service level
+late_settlement,P039789,Education Merchant 040,2026-09-13,2026-09-17,1574.04,1574.04,0.0,Log against the acquirer service level
+late_settlement,P046041,Fashion Merchant 027,2026-09-17,2026-09-22,2098.6,2098.6,0.0,Log against the acquirer service level
+late_settlement,P057009,Education Merchant 040,2026-09-18,2026-09-21,2040.0,2040.0,0.0,Log against the acquirer service level
+late_settlement,P057123,Education Merchant 040,2026-09-19,2026-09-22,1855.52,1855.52,0.0,Log against the acquirer service level
+late_settlement,P034169,Food Delivery Merchant 012,2026-09-21,2026-09-25,538.15,538.15,0.0,Log against the acquirer service level
+late_settlement,P003637,Education Merchant 040,2026-09-22,2026-09-27,644.72,644.72,0.0,Log against the acquirer service level
+late_settlement,P007940,Electronics Merchant 034,2026-09-22,2026-09-27,1441.8,1441.8,0.0,Log against the acquirer service level
+late_settlement,P002279,Education Merchant 041,2026-09-25,2026-09-30,3510.95,3510.95,0.0,Log against the acquirer service level
+late_settlement,P031842,Education Merchant 040,2026-09-25,2026-09-29,2503.4,2503.4,0.0,Log against the acquirer service level
+late_settlement,P004008,Travel Merchant 031,2026-09-26,2026-10-01,4016.06,4016.06,0.0,Log against the acquirer service level
+late_settlement,P009381,Food Delivery Merchant 012,2026-09-26,2026-09-30,86.31,86.31,0.0,Log against the acquirer service level
+late_settlement,P058041,Food Delivery Merchant 012,2026-09-27,2026-10-01,184.87,184.87,0.0,Log against the acquirer service level
+late_settlement,P010208,Airtime Data Merchant 052,2026-09-28,2026-10-02,247.17,247.17,0.0,Log against the acquirer service level
+late_settlement,P026154,Electronics Merchant 024,2026-09-28,2026-10-02,4940.01,4940.01,0.0,Log against the acquirer service level
+missing_in_bank,P020188,Education Merchant 040,2026-07-01,,1632.32,,-1632.32,Query the acquirer for the missing settlement
+missing_in_bank,P008945,Travel Merchant 020,2026-07-03,,3185.11,,-3185.11,Query the acquirer for the missing settlement
+missing_in_bank,P036194,Education Merchant 040,2026-07-10,,3223.71,,-3223.71,Query the acquirer for the missing settlement
+missing_in_bank,P052800,Fashion Merchant 049,2026-07-16,,413.7,,-413.7,Query the acquirer for the missing settlement
+missing_in_bank,P020738,Education Merchant 040,2026-07-20,,1245.89,,-1245.89,Query the acquirer for the missing settlement
+missing_in_bank,P040093,Food Delivery Merchant 012,2026-07-22,,555.94,,-555.94,Query the acquirer for the missing settlement
+missing_in_bank,P039895,Fashion Merchant 027,2026-07-24,,368.63,,-368.63,Query the acquirer for the missing settlement
+missing_in_bank,P012102,Education Merchant 026,2026-07-24,,4413.24,,-4413.24,Query the acquirer for the missing settlement
+missing_in_bank,P055575,Fuel Merchant 009,2026-07-28,,3045.13,,-3045.13,Query the acquirer for the missing settlement
+missing_in_bank,P039619,Electronics Merchant 024,2026-07-29,,7969.87,,-7969.87,Query the acquirer for the missing settlement
+missing_in_bank,P057502,Food Delivery Merchant 012,2026-07-31,,259.6,,-259.6,Query the acquirer for the missing settlement
+missing_in_bank,P059168,Food Delivery Merchant 012,2026-08-02,,255.18,,-255.18,Query the acquirer for the missing settlement
+missing_in_bank,P039445,Fuel Merchant 053,2026-08-08,,634.82,,-634.82,Query the acquirer for the missing settlement
+missing_in_bank,P016885,Food Delivery Merchant 012,2026-08-11,,228.79,,-228.79,Query the acquirer for the missing settlement
+missing_in_bank,P030694,Airtime Data Merchant 052,2026-08-11,,48.11,,-48.11,Query the acquirer for the missing settlement
+missing_in_bank,P000912,Education Merchant 040,2026-08-13,,628.0,,-628.0,Query the acquirer for the missing settlement
+missing_in_bank,P053828,Education Merchant 048,2026-08-14,,8489.99,,-8489.99,Query the acquirer for the missing settlement
+missing_in_bank,P057240,Food Delivery Merchant 012,2026-08-19,,55.13,,-55.13,Query the acquirer for the missing settlement
+missing_in_bank,P017883,Airtime Data Merchant 052,2026-08-21,,226.27,,-226.27,Query the acquirer for the missing settlement
+missing_in_bank,P037468,Food Delivery Merchant 012,2026-08-22,,270.86,,-270.86,Query the acquirer for the missing settlement
+missing_in_bank,P035115,Education Merchant 026,2026-08-22,,2324.6,,-2324.6,Query the acquirer for the missing settlement
+missing_in_bank,P028299,Electronics Merchant 010,2026-08-25,,5389.46,,-5389.46,Query the acquirer for the missing settlement
+missing_in_bank,P059793,Grocery Merchant 013,2026-08-26,,571.71,,-571.71,Query the acquirer for the missing settlement
+missing_in_bank,P033432,Airtime Data Merchant 033,2026-08-28,,461.12,,-461.12,Query the acquirer for the missing settlement
+missing_in_bank,P048665,Electronics Merchant 034,2026-08-30,,6334.37,,-6334.37,Query the acquirer for the missing settlement
+missing_in_bank,P009006,Food Delivery Merchant 012,2026-08-31,,192.61,,-192.61,Query the acquirer for the missing settlement
+missing_in_bank,P010922,Education Merchant 040,2026-09-01,,4857.9,,-4857.9,Query the acquirer for the missing settlement
+missing_in_bank,P036750,Fuel Merchant 032,2026-09-02,,532.14,,-532.14,Query the acquirer for the missing settlement
+missing_in_bank,P041738,Fashion Merchant 027,2026-09-05,,743.87,,-743.87,Query the acquirer for the missing settlement
+missing_in_bank,P026761,Travel Merchant 002,2026-09-10,,5707.4,,-5707.4,Query the acquirer for the missing settlement
+missing_in_bank,P007402,Travel Merchant 020,2026-09-13,,4535.7,,-4535.7,Query the acquirer for the missing settlement
+missing_in_bank,P044352,Electronics Merchant 024,2026-09-14,,5182.29,,-5182.29,Query the acquirer for the missing settlement
+missing_in_bank,P021722,Electronics Merchant 008,2026-09-14,,14801.21,,-14801.21,Query the acquirer for the missing settlement
+missing_in_bank,P005873,Fuel Merchant 022,2026-09-15,,616.34,,-616.34,Query the acquirer for the missing settlement
+missing_in_bank,P000371,Travel Merchant 031,2026-09-15,,2902.97,,-2902.97,Query the acquirer for the missing settlement
+missing_in_bank,P016113,Travel Merchant 020,2026-09-22,,1246.61,,-1246.61,Query the acquirer for the missing settlement
+missing_in_bank,P040692,Education Merchant 040,2026-09-23,,1137.8,,-1137.8,Query the acquirer for the missing settlement
+missing_in_bank,P034253,Fuel Merchant 053,2026-09-26,,610.99,,-610.99,Query the acquirer for the missing settlement
+missing_in_bank,P014847,Fashion Merchant 027,2026-09-28,,1774.5,,-1774.5,Query the acquirer for the missing settlement
+missing_in_bank,P034782,Food Delivery Merchant 012,2026-09-29,,523.74,,-523.74,Query the acquirer for the missing settlement
+missing_in_ledger,X000000,Food Delivery Merchant 012,,2026-07-25,,156.28,156.28,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000001,Education Merchant 017,,2026-07-17,,667.42,667.42,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000002,Electronics Merchant 003,,2026-08-08,,7302.04,7302.04,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000003,Education Merchant 041,,2026-09-21,,1135.39,1135.39,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000004,Fuel Merchant 000,,2026-09-09,,1093.27,1093.27,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000005,Food Delivery Merchant 012,,2026-08-15,,264.48,264.48,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000006,Food Delivery Merchant 039,,2026-08-04,,497.62,497.62,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000007,Electronics Merchant 024,,2026-09-20,,3635.91,3635.91,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000008,Fashion Merchant 027,,2026-09-06,,828.3,828.3,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000009,Education Merchant 017,,2026-07-12,,2016.89,2016.89,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000010,Food Delivery Merchant 045,,2026-08-05,,993.97,993.97,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000011,Food Delivery Merchant 014,,2026-07-18,,213.74,213.74,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000012,Food Delivery Merchant 012,,2026-07-04,,818.37,818.37,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000013,Education Merchant 026,,2026-07-11,,2555.15,2555.15,Trace the payment; possible unrecorded sale or bank error
+missing_in_ledger,X000014,Electronics Merchant 003,,2026-08-06,,1980.74,1980.74,Trace the payment; possible unrecorded sale or bank error

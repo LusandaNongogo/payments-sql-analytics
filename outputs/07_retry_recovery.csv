@@ -1,0 +1,7 @@
+failure_reason,failed_payments,recovered_by_retry,recovery_rate_pct,unrecovered_value
+insufficient_funds,1951,68,3.5,4266024.19
+issuer_declined,884,42,4.8,2145802.7
+3ds_failed,699,159,22.7,1171814.87
+invalid_card,325,51,15.7,640138.52
+suspected_fraud,217,3,1.4,556691.78
+timeout,493,266,54.0,535646.88

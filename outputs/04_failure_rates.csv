@@ -1,0 +1,19 @@
+channel,issuing_bank,attempts,failed,failure_rate_pct,timeout_share_pct
+card,Bank F,2060,286,13.88,44.8
+card,Bank D,5261,475,9.03,7.2
+card,Bank A,7914,694,8.77,7.3
+card,Bank E,4137,341,8.24,5.0
+card,Bank B,7515,606,8.06,6.6
+card,Bank C,6739,535,7.94,6.7
+instant_eft,Bank F,636,111,17.45,54.1
+instant_eft,Bank E,1208,161,13.33,6.8
+instant_eft,Bank B,2265,296,13.07,7.1
+instant_eft,Bank A,2306,299,12.97,4.7
+instant_eft,Bank C,1998,257,12.86,7.8
+instant_eft,Bank D,1597,194,12.15,9.8
+wallet,Bank F,395,39,9.87,56.4
+wallet,Bank A,1401,82,5.85,8.5
+wallet,Bank D,925,50,5.41,12.0
+wallet,Bank E,677,35,5.17,5.7
+wallet,Bank C,1240,53,4.27,3.8
+wallet,Bank B,1292,55,4.26,5.5

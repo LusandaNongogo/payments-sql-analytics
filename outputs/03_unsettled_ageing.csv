@@ -1,0 +1,5 @@
+age_bucket,payments,value
+1: 0 to 7 days,3,2909.23
+2: 8 to 30 days,10,37406.33
+3: 31 to 60 days,15,30713.74
+4: over 60 days,12,26568.32
