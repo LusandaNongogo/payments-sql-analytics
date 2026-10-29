@@ -1,0 +1,59 @@
+// Core volume and value
+Attempts = COUNTROWS(Payments)
+
+Successful Payments = CALCULATE([Attempts], Payments[status] = "succeeded")
+
+Failed Payments = CALCULATE([Attempts], Payments[status] = "failed")
+
+Success Rate = DIVIDE([Successful Payments], [Attempts])
+
+Failure Rate = DIVIDE([Failed Payments], [Attempts])
+
+Payment Value = CALCULATE(SUM(Payments[amount]), Payments[status] = "succeeded")
+
+Average Ticket = DIVIDE([Payment Value], [Successful Payments])
+
+// Time intelligence
+Value 7 Day Average =
+AVERAGEX(
+    DATESINPERIOD('Date'[Date], MAX('Date'[Date]), -7, DAY),
+    [Payment Value]
+)
+
+Value Prior Month = CALCULATE([Payment Value], DATEADD('Date'[Date], -1, MONTH))
+
+Value MoM Growth = DIVIDE([Payment Value] - [Value Prior Month], [Value Prior Month])
+
+// Failures
+Timeout Share =
+DIVIDE(
+    CALCULATE([Failed Payments], Payments[failure_reason] = "timeout"),
+    [Failed Payments]
+)
+
+// Chargebacks
+Chargebacks = COUNTROWS(Chargebacks)
+
+Chargeback Rate =
+DIVIDE(
+    [Chargebacks],
+    CALCULATE([Successful Payments], Payments[channel] = "card")
+)
+
+Chargeback Value Lost =
+CALCULATE(SUM(Chargebacks[amount]), Chargebacks[outcome] = "cardholder_won")
+
+Merchant Win Rate =
+DIVIDE(
+    CALCULATE([Chargebacks], Chargebacks[outcome] = "merchant_won"),
+    [Chargebacks]
+)
+
+Over Chargeback Threshold = IF([Chargeback Rate] > 0.01, "Review", "")
+
+// Revenue
+Fee Revenue =
+SUMX(
+    FILTER(Payments, Payments[status] = "succeeded"),
+    Payments[amount] * RELATED(Merchants[mdr_pct]) / 100
+)
